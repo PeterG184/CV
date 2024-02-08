@@ -54,11 +54,10 @@
   % set specific indentation for personal information
   \noindent\hangindent=2em\hangafter=0
   % create a box to align two pieces of text
-  \parbox{3\spacebox}{% three times larger box
+  \parbox{1.8\spacebox}{% three times larger box
   \textbf{#1}} % small caps entry name
-  #2 \par} % entry value
+  {\small #2} \par} % entry value
 
-% education
 % name of the work
 \newcommand{\education}[4]{
 \noindent  \textbf{#1}
@@ -127,7 +126,7 @@
 
 % work experience
 \section*{Work Experience}
-\work{Software Engineer}{August 2023--February 2024}{Premium Lithium}{I have worked across many disciplines in this role, developing full stack web applications, leading multiple projects in operations management and internal statistic tracking, and implementing AI applications for energy arbitrage and solar panel detection. It was a fast paced start up requiring me to manage my time effectively, meet ever changing requirements and deadlines, and work as part of an agile team.}
+\work{Software Engineer}{August 2023--Present}{Premium Lithium}{I have worked across many disciplines in this role, developing full stack web applications, leading multiple projects in operations management and internal statistic tracking, and implementing AI applications for energy arbitrage and solar panel detection. It was a fast paced start up requiring me to manage my time effectively, meet ever changing requirements and deadlines, and work as part of an agile team.}
 \newpage
 \work{Production Operator}{October 2021--August 2023}{DJ Assembly}{I have worked in all areas of production and manufacturing of electronic goods, including circuit assembly, box build, and inspection, testing and validation. I also gained experience in managing outgoing and internal stock and logistics.}
 \work{Customer Assistant}{June 2018--August 2020}{Matalan}{I worked in all areas of the store, with responsibilities including serving customers at the tills, management and selection of stock on the shop floor, and inventory management in the warehouse.}
@@ -135,21 +134,20 @@
 % technical skills
 \section*{Technical skills}
 
-\skill{Programming Languages}{Python, JavaScript (SvelteKit and React) Java/Maven, C, MATLAB, Swift, VHDL, ARM Assembly Language, \LaTeX and SQL}
-\skill{Technologies}{Git, VSCode, Linux, MacOS, , Keil $\mu$Vision 5, PostgreSQL, AWS, Google Cloud Compute, Vercel}
-\skill{Software Engineering}{Object Oriented Programming, Agile Methodology, Algorithm Design, Digital Signal Processing, Technical Writing, Database Design and Management}
-\skill{Electronic Engineering}{Circuit Design and Analysis, Hardware and Software Integration, Embedded System Design and Development}
+\skill{Languages}{Python (Pandas, Numpy), JavaScript (SvelteKit, React), TypeScript, Java/Maven, C, C$\#$, MATLAB, Swift, VHDL, ARM Assembly Language, \LaTeX and SQL}
+\skill{Technologies}{Git, VSCode, Linux, MacOS, , Keil $\mu$Vision 5, Micrsoft .NET, PostgreSQL, AWS, Google Cloud Compute, Vercel}
+\skill{Software}{Object Oriented Programming, Agile Methodology, Algorithm Design, Digital Signal Processing, Technical Writing, Database Design and Management}
+\skill{Engineering}{Circuit Design and Analysis, Hardware and Software Integration, Embedded System Design and Development}
 
 \section*{Achievements}
 \begin{itemize}
   \item Led a project to develop an AI driven energy arbitrage algorithm for use in homes to manage the purchasing and storing of generated energy.
   \item Delivered multiple customer facing web applications built in SvelteKit with a PostgreSQL database.
   \item Successfully managed and worked in a team to develop an interactive presentation system, complete with image, audio, video and text display and Python and JavaScript scripting capabilities, implemented in Java.
-  \item Designed and developed elements of an operating system for an embedded ARM microcontroller, with a fixed priority scheduler, mutual exclusion, task waiting and a queue-based task communication system, implemented in C, with the ARM Assembly Language.
   \item Created a model of the human voice and a guitar through the use of physical modelling synthesis, implemented in MATLAB.
 \end{itemize}
 
 \section*{Interests}
-\interests{I have played guitar for over a decade, drums for four years, and have taken on the role of lead guitarist and audio engineer for my band, resulting in us releasing an album and playing multiple shows in York. I am also a keen and regular climber, both in climbing gyms and outdoors, and I enjoy cycling in and around York.}
+\interests{I have played guitar for over a decade, drums for four years, and have taken on the role of lead guitarist and audio engineer for my band, resulting in us releasing two albums and playing multiple shows in York. I am also a keen and regular climber, both in climbing gyms and outdoors, and I enjoy cycling in and around York.}
 
 \end{document}

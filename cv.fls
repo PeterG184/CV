@@ -500,6 +500,9 @@ INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/public/tex-g
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/tfm/public/tex-gyre/rm-qplr.tfm
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
@@ -512,7 +515,8 @@ INPUT ./cv.out
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb
 INPUT d:/Files/Programs/Utilities/TexLive/2021/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb
